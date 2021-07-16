@@ -1,4 +1,4 @@
-package github.will.todolist;
+package todolist;
 
 public class MainClass {
 
@@ -6,7 +6,7 @@ public class MainClass {
 	{
 		System.out.println("todo app initiated");
 		// TODO Auto-generated method stub
-		new ToDoFrame("pick up dog","go to harrys house and pick up from dog sittting");
+		ToDoFrame frame = new ToDoFrame("pick up dog","go to harrys house and pick up from dog sittting");
 		
 		
 	}
